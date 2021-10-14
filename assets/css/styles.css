@@ -4,4 +4,41 @@
 
 body {
     margin: 0%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    line-height: 1.4;
+    font-size: 10px;
+}
+
+.header {
+    color: cornsilk;
+    font-size: 1.4rem;
+    background-color: blueviolet;
+
+}
+
+.nav-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.nav-item {
+    padding: 20px;
+
+}
+
+.nav-item a {
+    text-decoration: none;
+    color: blueviolet;
+}
+
+@media screen and (max-width: 576px) {
+    .nav-container {
+     flex-direction: column;
+     align-items: center;
+
+    }
+   
+
 }
