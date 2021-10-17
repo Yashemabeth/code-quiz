@@ -25,12 +25,30 @@ body {
 
 .nav-item {
     padding: 20px;
+    font-size: 1.4rem;
 
 }
 
 .nav-item a {
     text-decoration: none;
-    color: blueviolet;
+    color: cornsilk;
+}
+
+.main {
+    font-size: 1rem;
+}
+
+.start-container {
+    text-align: center;
+    margin: 0 2rem;
+    padding: 4rem;
+    
+
+}
+
+.title {
+    font-size: 2rem;
+    font-weight: 700;
 }
 
 @media screen and (max-width: 576px) {
