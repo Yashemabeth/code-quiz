@@ -42,8 +42,11 @@ body {
     text-align: center;
     margin: 0 2rem;
     padding: 4rem;
-    
+ 
+}
 
+#start-button {
+    justify-content: center;
 }
 
 .title {
