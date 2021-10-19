@@ -8,4 +8,4 @@ My aim is to create a game that is interactive with the user. The game will incl
 https://github.com/Yashemabeth
 
 ### Link to deployed application
-Website: https://Yashemabeth.github.io/code-quiz/
+https://Yashemabeth.github.io/code-quiz/
