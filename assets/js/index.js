@@ -14,6 +14,11 @@ const musicQuestions = [
       options: ["7", "6", "5", "10"],
       correctOption: "5",
     },
+    {
+        title: "What year was A Million Love Songs released ?",
+        options: ["1992", "1994", "2005", "2010"],
+        correctOption: "1992",
+      },
   ];
   
   let currentQuestionIndex = 0;
