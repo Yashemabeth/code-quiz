@@ -4,6 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./assets/css/styles.css">
     <title>Code Quiz Highscores</title>
 </head>
@@ -15,7 +21,20 @@
             </div>
         </nav>
     </header>
-    <h1>High-Scores</h1>
+    <main id="main-container">
+        <div class="container start-container" id="start-container">
+          <h1 class="title">High Scores</h1>
+          <div id="high-scores"></div>
+        </div>
+        <div class="container btn-container">
+          <div>
+            <button class="btn" id="go-back-btn">Home</button>
+          </div>
+          <div>
+            <button class="btn" id="clear-scores-btn">Clear Scores</button>
+          </div>
+        </div>
+      </main>
     <script src="./assets/js/highscores.js"></script>
 </body>
 </html>
