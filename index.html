@@ -1,38 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;700&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./assets/css/styles.css">
-    <title>Code Quiz Home</title>
-</head>
-<body>
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+    <title>Code Quiz | Home</title>
+  </head>
+  <body>
     <header class="header">
-        <nav class="nav-container">
-            <div class="nav-item">
-                 <a href="./highscores.html">High-Scores</a>
-            </div>
-            <div class="nav-item">Time: <span>0</span></div>
-        </nav>
+      <nav class="nav-container">
+        <div class="nav-item">
+          <a href="./highscores.html">High Scores</a>
+        </div>
+        <div class="nav-item">Time: <span id="countdown">0</span></div>
+      </nav>
     </header>
 
+    <div id="alert-container"></div>
+
     <main class="main" id="main-container">
-    <div class="container start-container" id="start-container" >
+      <div class="container start-container" id="start-container">
         <h1 class="title">Music Quiz</h1>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam necessitatibus minus itaque dolor dicta eaque cupiditate velit ut. Nihil eos ut omnis, aliquid cumque laboriosam blanditiis harum molestiae dignissimos iusto!
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque quae
+          vel aspernatur rerum ad error laudantium maiores omnis. Deleniti
+          minima est, enim corporis dolores eum aliquid corrupti officia omnis
+          at.
         </p>
         <div>
-            <button class="btn" id="start-button">Start</button>
+          <button class="btn" id="start-quiz">Start Quiz</button>
         </div>
-    </div>
+      </div>
     </main>
-    <script src="./assets/js/index.js"></script>  
-</body>
+    <script src="./assets/js/index.js"></script>
+  </body>
 </html>
