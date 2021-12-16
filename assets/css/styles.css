@@ -24,9 +24,9 @@
   }
   
   .header {
-    color: var(--lemon-meringue);
+    color: var(--orange);
     font-size: 1.4rem;
-    background-color: var(--prussian-blue);
+    background-color: var(--maximum-yellow-red);
   }
   
   .nav-container {
@@ -41,7 +41,7 @@
   
   .nav-item a {
     text-decoration: none;
-    color: var(--lemon-meringue);
+    color: var(--orange);
   }
   
   .main {
